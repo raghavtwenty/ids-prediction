@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/hi.css') }}">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/output" method="post">
+        <h2>Port Number - The switch port through which the flow passed</h2>
+        <input type="text" id="aa" name="aa"><br><br>
+        <h2>Received Packets - Number of packets received by the port</h2>
+        <input type="text" id="bb" name="bb"><br><br>
+        <h2>Received Bytes - Number of bytes received by the port</h2>
+        <input type="text" id="cc" name="cc"><br><br>
+        <h2>Sent Bytes - Number of bytes sent by the port</h2>
+        <input type="text" id="dd" name="dd"><br><br>
+        <h2>Sent Packets - Number of packets sent by the port</h2>
+        <input type="text" id="ee" name="ee"><br><br>
+        <h2>Port alive Duration (S) - The time port has been alive in seconds</h2>
+        <input type="text" id="ff" name="ff"><br><br>
+        <h2>Delta Port alive Duration (S) - The time port has been alive in seconds</h2>
+        <input type="text" id="gg" name="gg"><br><br>
+        <h2> Connection Point - Network connection point expressed as a pair of the network element identifier and port
+            number </h2>
+        <input type="text" id="hh" name="hh"><br><br>
+        <h2>Packets Looked Up - Returns the number of packets looked up in the table.</h2>
+        <input type="text" id="ii" name="ii"><br><br>
+        <h2>Packets Matched - Returns the number of packets that successfully matched in the table.</h2>
+        <input type="text" id="jj" name="jj"><br><br>
+        <input type="submit" ,value="Submit" , id="Submit "></button>
+    </form>
+
+</body>
+<footer>
+    Designed & Developed by Raghav | GitHub : @raghavtwenty
+    <br>
+    Last Updated : June 27, 2023 | Version : 1.20230723
+</footer>
+
+</html>
