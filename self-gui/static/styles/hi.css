@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: navy;
+}
+
+input {
+    font-size: 20px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: -10px;
+}
+
+h2,
+h1 {
+    text-align: center;
+    color: deeppink;
+    font-family: 'Trebuchet MS';
+}
+
+footer {
+    text-align: center;
+    color: deeppink;
+    font-family: 'Trebuchet MS';
+}
