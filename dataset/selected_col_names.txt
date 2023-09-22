@@ -1,0 +1,11 @@
+Port Number - The switch port through which the flow passed
+Received Packets - Number of packets received by the port
+Received Bytes - Number of bytes received by the port
+Sent Bytes - Number of bytes sent by the port
+Sent Packets - Number of packets sent by the port
+Port alive Duration (S) - The time port has been alive in seconds
+Delta Port alive Duration (S) - The time port has been alive in seconds
+Connection Point - Network connection point expressed as a pair of the network element identifier and port number.
+Packets Looked Up - Returns the number of packets looked up in the table.
+Packets Matched - Returns the number of packets that successfully matched in the table.
+label (Target)
