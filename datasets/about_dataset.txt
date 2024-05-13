@@ -1,0 +1,34 @@
+This dataset contains 5000 records of features extracted from Network Port Statistics to protect modern-day computer networks from cyber attacks and are thereby classified into 5 classes
+
+Switch ID - The switch through which the network flow passed
+Port Number - The switch port through which the flow passed
+Received Packets - Number of packets received by the port
+Received Bytes - Number of bytes received by the port
+Sent Bytes - Number of bytes sent by the port
+Sent Packets - Number of packets sent by the port
+Port alive Duration (S) - The time port has been alive in seconds
+Packets Rx Dropped - Number of packets dropped by the receiver
+Packets Tx Dropped - Number of packets dropped by the sender
+Packets Rx Errors - Number of transmit errors
+Delta Received Packets - Number of packets received by the port
+Delta Received Bytes - Number of bytes received by the port
+Delta Sent Bytes - Number of bytes sent by the port
+Delta Sent Packets - Number of packets sent by the port
+Delta Port alive Duration (S) - The time port has been alive in seconds
+Delta Packets Rx Dropped - Number of packets dropped by the receiver
+Delta Packets Tx Dropped - Number of packets dropped by the sender
+Delta Packets Rx Errors - Number of receive errors
+Delta Packets Tx Errors - Number of transmit errors
+Connection Point - Network connection point expressed as a pair of the network element identifier and port number.
+Total Load/Rate - Obtain the current observed total load/rate (in bytes/s) on a link.
+Total Load/Latest - Obtain the latest total load bytes counter viewed on that link.
+Load/Rate - Obtain the current observed unknown-sized load/rate (in bytes/s) on a link.
+Unknown Load/Latest - Obtain the latest unknown-sized load bytes counter viewed on that link.
+Latest bytes counter - Latest bytes counted in the switch port
+Checkis_valid - Indicates whether this load was built on valid values.
+vpn_keyTable ID - Returns the Table ID values.
+Active Flow Entries - Returns the number of active flow entries in this table.
+Packets Looked Up - Returns the number of packets looked up in the table.
+Packets Matched - Returns the number of packets that successfully matched in the table.
+Max Size - Returns the maximum size of this table.
+Label - Label types for intrusions - Normal:0,Blackhole:1,TCP-SYN:2,PortScan:3,Diversion:4,Overflow:5

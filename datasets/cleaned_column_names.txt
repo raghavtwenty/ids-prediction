@@ -1,0 +1,14 @@
+Port Number
+Received Packets
+Received Bytes
+Sent Bytes
+Sent Packets
+Port alive Duration (S)
+Delta Received Bytes
+Delta Sent Bytes
+Delta Port alive Duration (S)
+Connection Point
+Total Load/Rate
+Active Flow Entries
+Packets Matched
+Label
